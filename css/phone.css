@@ -1,0 +1,106 @@
+/* Navigation section  */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li{
+    font-size: 13px;
+}
+#navbar ul li a{
+padding: 0px 10px;
+padding-bottom: 5px;
+}
+
+/* Home section  */
+#home{
+height: 140px;
+padding: 15px 25px;
+}
+#home::before{
+    height: 480px;
+}
+.primary{
+    padding: 10px;
+    font-size: 20px;
+}
+#home p{
+    font-size: 13px;
+    padding: 7px;
+}
+
+
+/* Services section   */
+.services-container{
+    height: 1588px;
+}
+#services {
+flex-direction: column;
+margin: -5px;
+}
+#services .box{
+padding: 20px;
+}
+#services .box img{
+    width: 312px;
+    height: 200px;
+}
+#services .box img:hover{
+    width: 322px;
+    height: 212px;
+}
+#maxservice{
+    flex-direction: column;
+    margin: -32px -5px;
+}
+#maxservice .max{
+padding: 20px;
+}
+#maxservice .max img{
+    width: 312px;
+    height: 200px;
+}
+#maxservice .max img:hover{
+    width: 322px;
+    height: 212px;
+}
+/* Our Partner section  */
+#client-section .center{
+    padding-top: 3px;
+    font-size: 44px;  
+}
+#partner{
+    flex-wrap: wrap;
+}
+.partner-item{
+    padding: 0px 10px;
+    margin-top: 60px;
+} 
+#partner img{
+    width: 85px;
+    /* padding: 0px 45px; */
+    height: auto;
+}
+
+/* Contact us section  */
+#contact .center{
+    padding: 34px;
+    font-size: 55px;
+}
+#contact::before{
+    height: 770px;
+}
+#contact-box form{
+    width: 250px;
+    font-size: 25px;
+}
+
+
+/* footer section  */
+
+
+
+/* utility classes  */
+.h-primary{
+    font-size: 48px;
+    margin-top: 228px;
+    margin-bottom: -10px;
+}
